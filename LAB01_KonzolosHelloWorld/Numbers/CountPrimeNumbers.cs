@@ -20,7 +20,7 @@ namespace Numbers
             {
                 if (IsPrime(i))
                 {
-                    db += 1;
+                    db += i;
                 }
             }
             return db;
