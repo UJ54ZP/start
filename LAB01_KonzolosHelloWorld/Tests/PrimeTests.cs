@@ -9,10 +9,10 @@ namespace Tests
     public class PrimeTests
     {
         [Fact]
-        public void CountPrimeNumbers100Returns25()
+        public void CountPrimeNumbers100Returns1060()
         {
             var p = new CountPrimeNumbers(100);
-            Assert.Equal(25, p.CalculateSolution());
+            Assert.Equal(1060, p.CalculateSolution());
 
         }
     }
